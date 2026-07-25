@@ -64,7 +64,7 @@ Average entropy of top 11k Alexia domains is around 3.1
 However, relying on entropy alone can result in a lot number of false positive as entropy of CDN networks is also higher. So, you need to combine this indicator with other one like domain query length and it can be very effective.
 
 ### Mix of uppercase and lowercase letters
-If there are mixed upper/lower case characters in domains, it should be investigated as it might be base64 encoded data.
+If there are mixed upper/lower case characters in domainshttps://github.com/vektort13/antiOS_batch/blob/0f42e5147bb87199abaacc99e3f9eb9d9296823f/user.txt#L1163, it should be investigated as it might be base64 encoded data.
 Usually, most of the domain characters are either in lowercase or uppercase.
 ```
 $ echo W.0228452040.I0.aHR0cHM6Ly9zc2wuZ3N0YXRpYy5jb20v.19.x.wpad.software | tr -cd '[A-Z]' | wc -c
